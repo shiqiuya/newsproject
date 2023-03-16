@@ -1,0 +1,28 @@
+@import url("../../css/reset.css");
+@import url("./table.css");
+
+body {
+  padding: 20px;
+  font-size: 14px;
+}
+span.btn1 {
+  /* border: 1px solid #999; */
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 8px;
+  color: #999;
+}
+span.btn2 {
+  /* border: 1px solid #999; */
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+span.btn2:hover {
+  /* border: 1px solid #999; */
+  background-color: #ccc;
+}
+span.active {
+  background-color: aqua;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        新闻标题：
+        <input type="text" name="title" />
+      </div>
+      <div>
+        新闻图片：
+        <input type="file" accept="image/*" name="pic" multiple />
+        <img id="yulan" />
+      </div>
+      <!-- <div>
+        作者头像：
+        <input type="file" accept="image/*" name="avatar" multiple />
+        <img id="yulan" />
+      </div> -->
+      <div>
+        新闻分类：
+        <select name="newsClass" id="xinwenList"></select>
+      </div>
+      <div>
+        <div id="editor"></div>
+      </div>
+      <div>
+        <button>发布</button>
+      </div>
+    </form>
+  </body>
+</html>
